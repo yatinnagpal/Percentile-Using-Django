@@ -1,0 +1,95 @@
+.percentile{
+  display: flex;
+  background-color: #4c7bd4e0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: max-content;
+  width: 100vw;
+  height: 100vh;
+}
+.content{
+  border: 1px solid grey;  
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #c5c345;
+  width:80%;
+  height: 88%;
+}
+.percent{
+  margin-top:20px;
+  margin-right:20px;
+}
+.header,.elements{
+  align-items: center;
+  justify-content: center;
+  
+}
+.header{
+  background-color: rgb(18, 104, 61);
+  color: white;
+  height: 7%;
+  width: 40%;
+  padding:12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input{
+  height: 100px;
+  width: 200px;
+  margin-left: 50px;
+}
+.clear{
+  margin-left: 10px ;
+  text-decoration: solid black;
+  height: 50px;
+  width: 90px;
+  background-color: #768b17;
+}
+.calculate{
+   height: 50px;
+   width: 90px;
+   background-color: #768b17;
+}
+td{
+  padding:10px;
+}
+.button{
+  margin-top: 20px;
+  display: flex;
+}
+.textbox{
+  height: 30px;
+  margin-top: 17px;
+}
+.table{
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-right:10px;
+}
+.element-container{
+  display: flex;
+  flex-direction: row;
+}
+.percent-container{
+  display: flex;
+  flex-direction: row;
+}
+.label{
+  margin-top: 20px;
+}
+.outer-table{
+  overflow-y: scroll;
+  height: 400px;
+}
+
+#table1{
+  height: 200px;
+}
